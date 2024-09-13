@@ -10,6 +10,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\angularbookquotes.client\browser\app.component.css.map" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\favicon.ico" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\index.html" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\main.js" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\main.js.map" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-brands-400.ttf" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-brands-400.woff2" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-regular-400.ttf" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-regular-400.woff2" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-solid-900.woff2" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-v4compatibility.ttf" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\media\fa-v4compatibility.woff2" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\polyfills.js" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\polyfills.js.map" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\scripts.js" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\scripts.js.map" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\styles.css" />
+    <Content Remove="wwwroot\angularbookquotes.client\browser\styles.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
       <Version>8.*-*</Version>
@@ -24,7 +46,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\angularbookquotes.client\browser\app.component.css.map" />
+    <None Include="wwwroot\angularbookquotes.client\browser\favicon.ico" />
+    <None Include="wwwroot\angularbookquotes.client\browser\index.html" />
+    <None Include="wwwroot\angularbookquotes.client\browser\main.js" />
+    <None Include="wwwroot\angularbookquotes.client\browser\main.js.map" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-brands-400.ttf" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-brands-400.woff2" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-regular-400.ttf" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-regular-400.woff2" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-solid-900.ttf" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-solid-900.woff2" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-v4compatibility.ttf" />
+    <None Include="wwwroot\angularbookquotes.client\browser\media\fa-v4compatibility.woff2" />
+    <None Include="wwwroot\angularbookquotes.client\browser\polyfills.js" />
+    <None Include="wwwroot\angularbookquotes.client\browser\polyfills.js.map" />
+    <None Include="wwwroot\angularbookquotes.client\browser\scripts.js" />
+    <None Include="wwwroot\angularbookquotes.client\browser\scripts.js.map" />
+    <None Include="wwwroot\angularbookquotes.client\browser\styles.css" />
+    <None Include="wwwroot\angularbookquotes.client\browser\styles.css.map" />
   </ItemGroup>
 
 </Project>

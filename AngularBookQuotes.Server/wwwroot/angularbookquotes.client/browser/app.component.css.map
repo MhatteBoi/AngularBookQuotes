@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": ["\uFEFF:host {\r\n    max-width: 1280px;\r\n    padding: 2rem;\r\n    text-align: center;\r\n}\r\n\r\nth, td {\r\n    padding-left: 1rem;\r\n    padding-right: 1rem;\r\n}\r\n\r\ntable {\r\n    margin: 0 auto;\r\n}\r\n"],
+  "mappings": ";AAAC;AACG,aAAW;AACX,WAAS;AACT,cAAY;AAChB;AAEA;AAAI;AACA,gBAAc;AACd,iBAAe;AACnB;AAEA;AACI,UAAQ,EAAE;AACd;",
+  "names": []
+}
