@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "edge",
+      "request": "launch",
+      "name": "localhost (Brave)",
+      "url": "https://localhost:4200",
+      "webRoot": "${workspaceFolder}",
+      "runtimeExecutable": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "localhost (Brave)",
+      "url": "https://localhost:4200",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

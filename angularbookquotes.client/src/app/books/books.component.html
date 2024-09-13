@@ -1,0 +1,64 @@
+<div class="container">
+  <!-- Books Section -->
+  <h2 class="text-center my-4">Books</h2>
+
+  <!-- Book List -->
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h3 class="mb-4">Book List</h3>
+      <ul class="list-group mb-4">
+        <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let book of books">
+          <span>
+            <strong>{{ book.title }}</strong> by {{ book.author }}<br>
+            <small>Published: {{ book.publishedDate }}</small>
+          </span>
+          <button class="btn btn-danger btn-sm" (click)="deleteBook(book.id)"><i class="fa-solid fa-trash"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Create New Book Form -->
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h3 class="mb-4">Create a New Book</h3>
+      <form #bookForm="ngForm" (ngSubmit)="addBook(bookForm.value)">
+        <div class="form-group mb-3">
+          <label for="title">Title</label>
+          <input type="text" name="title" ngModel class="form-control" placeholder="Title" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="author">Author</label>
+          <input type="text" name="author" ngModel class="form-control" placeholder="Author" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="publishedDate">Published Date</label>
+          <input type="date" name="publishedDate" ngModel class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100"><i class="fa-solid fa-plus"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Update Book Form -->
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <h3 class="mb-4">Update Book</h3>
+      <form #bookForm="ngForm" (ngSubmit)="updateBook(bookForm.value)">
+        <div class="form-group mb-3">
+          <label for="title">Title</label>
+          <input type="text" name="title" ngModel class="form-control" placeholder="Title" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="author">Author</label>
+          <input type="text" name="author" ngModel class="form-control" placeholder="Author" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="publishedDate">Published Date</label>
+          <input type="date" name="publishedDate" ngModel class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success w-100"><i class="fa-solid fa-star"></i></button>
+      </form>
+    </div>
+  </div>
+</div>
