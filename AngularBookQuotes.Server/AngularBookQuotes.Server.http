@@ -1,6 +1,6 @@
 @AngularBookQuotes.Server_HostAddress = http://localhost:5122
 
-GET {{AngularBookQuotes.Server_HostAddress}}/weatherforecast/
+GET {{AngularBookQuotes.Server_HostAddress}}/api/book
 Accept: application/json
 
 ###
